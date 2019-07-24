@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/JakeChampion/polyfill-service-url-builder/compare/v1.4.1...v1.4.2) (2019-07-24)
+
+
+### Bug Fixes
+
+* make it work with npx ([330ec29](https://github.com/JakeChampion/polyfill-service-url-builder/commit/330ec29))
+
 ## [1.4.1](https://github.com/JakeChampion/polyfill-service-url-builder/compare/v1.4.0...v1.4.1) (2019-07-24)
 
 
