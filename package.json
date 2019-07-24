@@ -20,6 +20,7 @@
   },
   "version": "1.4.1",
   "dependencies": {
+    "@babel/core": "^7.5.5",
     "@financial-times/js-features-analyser": "0.0.4",
     "execa": "^2.0.3",
     "polyfill-library": "^3.37.0",
