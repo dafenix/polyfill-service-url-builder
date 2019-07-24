@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/JakeChampion/polyfill-service-url-builder/compare/v1.4.0...v1.4.1) (2019-07-24)
+
+
+### Bug Fixes
+
+* add current working directory to the given file path ([9590f71](https://github.com/JakeChampion/polyfill-service-url-builder/commit/9590f71))
+
 # [1.4.0](https://github.com/JakeChampion/polyfill-service-url-builder/compare/v1.3.0...v1.4.0) (2019-07-24)
 
 
