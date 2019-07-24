@@ -1,0 +1,69 @@
+{
+  "name": "polyfill-service-url-builder",
+  "bin": {
+    "create-polyfill-service-url": "./index.js"
+  },
+  "scripts": {
+    "commit": "git-cz",
+    "fix": "eslint . --fix",
+    "lint": "eslint .",
+    "test": "npm run lint && jest test --passWithNoTests",
+    "semantic-release": "semantic-release"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.1.0",
+    "@semantic-release/changelog": "^3.0.4",
+    "@semantic-release/git": "^7.0.16",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2",
+    "eslint": "^6.1.0",
+    "jest": "^24.8.0",
+    "semantic-release": "^15.13.18"
+  },
+  "version": "0.0.0",
+  "dependencies": {
+    "polyfill-library": "^3.37.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JakeChampion/polyfill-service-url-builder.git"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/npm",
+        {
+          "npmPublish": false
+        }
+      ],
+      "@semantic-release/github"
+    ],
+    "prepare": [
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      {
+        "path": "@semantic-release/git",
+        "assets": [
+          "package.json",
+          "package-lock.json",
+          "CHANGELOG.md"
+        ],
+        "message": "chore(release): ${nextRelease.version} [skip ci]nn${nextRelease.notes}"
+      }
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/JakeChampion/polyfill-service-url-builder/issues"
+  },
+  "homepage": "https://github.com/JakeChampion/polyfill-service-url-builder#readme",
+  "author": "Jake Champion",
+  "license": "MIT",
+  "description": ""
+}
