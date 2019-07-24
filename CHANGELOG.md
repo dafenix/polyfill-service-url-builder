@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/JakeChampion/polyfill-service-url-builder/compare/v1.1.0...v1.2.0) (2019-07-24)
+
+
+### Features
+
+* rename project and add command line interface ([bc96efa](https://github.com/JakeChampion/polyfill-service-url-builder/commit/bc96efa))
+
 # [1.1.0](https://github.com/JakeChampion/polyfill-service-url-builder/compare/v1.0.0...v1.1.0) (2019-07-24)
 
 
