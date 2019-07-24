@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/JakeChampion/polyfill-service-url-builder/compare/v1.3.0...v1.4.0) (2019-07-24)
+
+
+### Features
+
+* add a package description ([ef7ce5a](https://github.com/JakeChampion/polyfill-service-url-builder/commit/ef7ce5a))
+
 # [1.3.0](https://github.com/JakeChampion/polyfill-service-url-builder/compare/v1.2.0...v1.3.0) (2019-07-24)
 
 
