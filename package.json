@@ -61,5 +61,5 @@
   "homepage": "https://github.com/JakeChampion/polyfill-service-url-builder#readme",
   "author": "Jake Champion",
   "license": "MIT",
-  "description": ""
+  "description": "Analyse your JavaScript file and generate a polyfill.io URL based on all the features that are being used from within the JavaScript file."
 }
