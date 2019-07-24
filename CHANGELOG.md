@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/JakeChampion/polyfill-service-url-builder/compare/v1.2.0...v1.3.0) (2019-07-24)
+
+
+### Features
+
+* publish to npm and rename cli to package name ([37c1bf1](https://github.com/JakeChampion/polyfill-service-url-builder/commit/37c1bf1))
+
 # [1.2.0](https://github.com/JakeChampion/polyfill-service-url-builder/compare/v1.1.0...v1.2.0) (2019-07-24)
 
 
