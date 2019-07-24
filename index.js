@@ -13,9 +13,11 @@ require("yargs")
     }, async function parseFile(argv) {
         const execa = require('execa');
         const generatePolyfillURL = require('./src/index.js');
+        const path = require('path');
+        const file = path.join(process.cwd(), argv.file);
         const {
             stdout
-        } = await execa('js-features-analyser', ['analyse', '--file', argv.file], {
+        } = await execa('js-features-analyser', ['analyse', '--file', file], {
             preferLocal: true
         });
         console.log(await generatePolyfillURL(JSON.parse(stdout)));
