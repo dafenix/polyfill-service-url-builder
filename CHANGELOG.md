@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/JakeChampion/polyfill-service-url-builder/compare/v1.5.0...v1.6.0) (2019-07-29)
+
+
+### Features
+
+* sort features query parameter value alphabetically ([2d5c892](https://github.com/JakeChampion/polyfill-service-url-builder/commit/2d5c892))
+
 # [1.5.0](https://github.com/JakeChampion/polyfill-service-url-builder/compare/v1.4.2...v1.5.0) (2019-07-29)
 
 
