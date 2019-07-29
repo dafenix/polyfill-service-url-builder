@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/JakeChampion/polyfill-service-url-builder/compare/v1.4.2...v1.5.0) (2019-07-29)
+
+
+### Features
+
+* adds the constructor of a feature to the features querystring if the specific feature does not exist from within polyfill-library ([246c342](https://github.com/JakeChampion/polyfill-service-url-builder/commit/246c342))
+
 ## [1.4.2](https://github.com/JakeChampion/polyfill-service-url-builder/compare/v1.4.1...v1.4.2) (2019-07-24)
 
 
