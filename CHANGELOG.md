@@ -1,3 +1,16 @@
+# [2.0.0](https://github.com/JakeChampion/polyfill-service-url-builder/compare/v1.6.0...v2.0.0) (2020-01-13)
+
+
+### Features
+
+* added browserslist support ([5366d66](https://github.com/JakeChampion/polyfill-service-url-builder/commit/5366d66)), closes [#10](https://github.com/JakeChampion/polyfill-service-url-builder/issues/10)
+
+
+### BREAKING CHANGES
+
+* If your project makes use of browserslist, you need to now check that you are happy
+with your polyfill.io url being based on that config.
+
 # [1.6.0](https://github.com/JakeChampion/polyfill-service-url-builder/compare/v1.5.0...v1.6.0) (2019-07-29)
 
 
