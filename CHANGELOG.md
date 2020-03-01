@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/JakeChampion/polyfill-service-url-builder/compare/v2.0.0...v2.0.1) (2020-03-01)
+
+
+### Bug Fixes
+
+* write non-url output to stderr ([c39cac3](https://github.com/JakeChampion/polyfill-service-url-builder/commit/c39cac3225a4d060ce50d60504ee99fb351204f5))
+
 # [2.0.0](https://github.com/JakeChampion/polyfill-service-url-builder/compare/v1.6.0...v2.0.0) (2020-01-13)
 
 
