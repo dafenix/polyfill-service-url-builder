@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/JakeChampion/polyfill-service-url-builder/compare/v2.0.2...v2.0.3) (2020-03-03)
+
+
+### Bug Fixes
+
+* inform user when a error (but not a SyntaxError) occurs ([3874a85](https://github.com/JakeChampion/polyfill-service-url-builder/commit/3874a852b69cfdffeae2080e5ffa26315dbc16dc))
+
 ## [2.0.2](https://github.com/JakeChampion/polyfill-service-url-builder/compare/v2.0.1...v2.0.2) (2020-03-03)
 
 
