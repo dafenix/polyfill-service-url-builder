@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/JakeChampion/polyfill-service-url-builder/compare/v2.0.1...v2.0.2) (2020-03-03)
+
+
+### Bug Fixes
+
+* allow browserslist 'all' range to work ([c969e95](https://github.com/JakeChampion/polyfill-service-url-builder/commit/c969e95f2aa562004767a4be0a2ac62cefc97654))
+
 ## [2.0.1](https://github.com/JakeChampion/polyfill-service-url-builder/compare/v2.0.0...v2.0.1) (2020-03-01)
 
 
