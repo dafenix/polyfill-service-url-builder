@@ -1,3 +1,10 @@
+## [2.0.4](https://github.com/JakeChampion/polyfill-service-url-builder/compare/v2.0.3...v2.0.4) (2020-03-13)
+
+
+### Bug Fixes
+
+* use the new result.message property instead of old message ([af14923](https://github.com/JakeChampion/polyfill-service-url-builder/commit/af14923ff68821600882db26cec1a94636fffaf6))
+
 ## [2.0.3](https://github.com/JakeChampion/polyfill-service-url-builder/compare/v2.0.2...v2.0.3) (2020-03-03)
 
 
