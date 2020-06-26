@@ -3,7 +3,6 @@
 A Node.js command-line application for analysing your JavaScript file and generating a https://polyfill.io URL based on all the features that are being used from within the JavaScript file.
 
 [![NPM version](https://img.shields.io/npm/v/create-polyfill-service-url.svg)](https://www.npmjs.com/package/create-polyfill-service-url)
-[![Build status](https://img.shields.io/circleci/build/gh/Financial-Times/polyfill-service-url-builder.svg)](https://circleci.com/gh/Financial-Times/polyfill-service-url-builder)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
 
 ```bash
