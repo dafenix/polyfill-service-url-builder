@@ -4,9 +4,7 @@
   "scripts": {
     "fix": "eslint . --fix",
     "lint": "eslint .",
-    "test": "npm run lint && jest test --passWithNoTests",
-    "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "test": "npm run lint && jest test --passWithNoTests"
   },
   "devDependencies": {
     "eslint": "^7.0.0",
@@ -14,14 +12,13 @@
   },
   "version": "2.0.4",
   "dependencies": {
-    "@babel/core": "^7.5.5",
-    "@financial-times/js-features-analyser": "0.0.4",
-    "browserslist": "^4.8.3",
-    "execa": "^4.0.0",
-    "polyfill-library": "^3.37.0",
-    "semver": "^7.1.1",
-    "yargs": "^15.1.0",
-    "snyk": "^1.425.4"
+    "@babel/core": "^7.23.2",
+    "@financial-times/js-features-analyser": "^0.4.3",
+    "browserslist": "^4.22.1",
+    "execa": "^4.1.0",
+    "polyfill-library": "^3.111.0",
+    "semver": "^7.5.4",
+    "yargs": "^15.4.1"
   },
   "repository": {
     "type": "git",
@@ -34,5 +31,5 @@
   "author": "Jake Champion",
   "license": "MIT",
   "description": "Analyse your JavaScript file and generate a polyfill.io URL based on all the features that are being used from within the JavaScript file.",
-  "snyk": true
+  "snyk": false
 }

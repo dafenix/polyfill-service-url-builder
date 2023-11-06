@@ -91,10 +91,25 @@ require('yargs')
       });
 
       const resultList = await Promise.all(promiseList);
-      const featureList = resultList.reduce(
+      let featureList = resultList.reduce(
         (carry, item) => [...carry, ...item],
         []
       );
+      const clonedFeatureList = [...featureList];
+      
+      for (const feature of clonedFeatureList) {
+        const parts = feature.split('.');
+        if (parts.length >= 2 && parts[1] === 'prototype') {
+          if (parts[0] === 'Document') {
+            parts[0] = parts[0].toLowerCase();
+          }
+          else if (parts[0] === 'element') {
+            parts[0] = parts[0].toUpperCase();
+          }
+          parts[0] = parts[0].toLowerCase();
+          featureList.push(parts[0] + '.' + parts.slice(2).join('.'))
+        }
+      }
       const uniqueFeatureList = [...new Set(featureList)];
 
       const result = await generatePolyfillURL(uniqueFeatureList, browsers);
